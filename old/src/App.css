@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+#root{
+  height: 100vh;
+}
+
+.momo-signature {
+  font-family: "Momo Signature", sans-serif;
+}
+
+.zalando-sans {
+  font-family: "Zalando Sans", sans-serif;
+}
