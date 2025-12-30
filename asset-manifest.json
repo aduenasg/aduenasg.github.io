@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e2628b4d.css",
+    "main.js": "/static/js/main.ce7d13d3.js",
+    "static/js/488.309bef99.chunk.js": "/static/js/488.309bef99.chunk.js",
+    "static/media/background.png": "/static/media/background.81eb38a5d622ae06b86d.png",
+    "static/media/logo.png": "/static/media/logo.8a9953a2a1a1ec583d48.png",
+    "static/media/momo-signature-latin-400-normal.woff": "/static/media/momo-signature-latin-400-normal.7b45dcd7cca0e0e1d7dd.woff",
+    "static/media/momo-signature-latin-400-normal.woff2": "/static/media/momo-signature-latin-400-normal.378c35659db2efa6098e.woff2",
+    "static/media/momo-signature-latin-ext-400-normal.woff": "/static/media/momo-signature-latin-ext-400-normal.4638af562d3a8c190887.woff",
+    "static/media/momo-signature-latin-ext-400-normal.woff2": "/static/media/momo-signature-latin-ext-400-normal.a39570fc620f2ae515da.woff2",
+    "static/media/zalando-sans-latin-400-normal.woff": "/static/media/zalando-sans-latin-400-normal.088ba86d2286a7dcaae4.woff",
+    "static/media/zalando-sans-latin-400-normal.woff2": "/static/media/zalando-sans-latin-400-normal.c7bd91b35ea147cb1677.woff2",
+    "static/media/momo-signature-vietnamese-400-normal.woff2": "/static/media/momo-signature-vietnamese-400-normal.2f0e849c39ae27375add.woff2",
+    "static/media/momo-signature-vietnamese-400-normal.woff": "/static/media/momo-signature-vietnamese-400-normal.cde6d5206e14a5d6b0c8.woff",
+    "static/media/zalando-sans-latin-ext-400-normal.woff": "/static/media/zalando-sans-latin-ext-400-normal.bef36a5b17395681e446.woff",
+    "static/media/zalando-sans-latin-ext-400-normal.woff2": "/static/media/zalando-sans-latin-ext-400-normal.264618b647c47b50bb82.woff2",
+    "index.html": "/index.html",
+    "main.e2628b4d.css.map": "/static/css/main.e2628b4d.css.map",
+    "main.ce7d13d3.js.map": "/static/js/main.ce7d13d3.js.map",
+    "488.309bef99.chunk.js.map": "/static/js/488.309bef99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2628b4d.css",
+    "static/js/main.ce7d13d3.js"
+  ]
+}
