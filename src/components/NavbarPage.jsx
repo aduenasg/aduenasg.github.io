@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Icon from './../static/img/logo.png';
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import NavbarCSS from "./../static/css/navbar.css";
 import { 
   FaHome,
@@ -54,12 +55,36 @@ function NavbarPage() {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/" className="text-white d-flex align-items-center gap-2"><FaHome /> Inicio</Nav.Link>
-            <Nav.Link href="/about-me" className="text-white d-flex align-items-center gap-2"><FaUser /> Sobre Mi</Nav.Link>
-            <Nav.Link href="/experience" className="text-white d-flex align-items-center gap-2"><FaBriefcase /> Experiencia</Nav.Link>
-            <Nav.Link href="#proyectos" className="text-white d-flex align-items-center gap-2"><FaProjectDiagram /> Proyectos</Nav.Link>
-            <Nav.Link href="#tecnologias" className="text-white d-flex align-items-center gap-2"><FaTools /> Tecnologías</Nav.Link>
-            <Nav.Link href="#contacto" className="text-white d-flex align-items-center gap-2"><FaEnvelope /> Contacto</Nav.Link>
+              <Nav.Item>
+    <Link to="/" className="text-white d-flex align-items-center gap-2">
+      <FaHome /> Inicio
+    </Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Link to="/about-me" className="text-white d-flex align-items-center gap-2">
+      <FaUser /> Sobre Mi
+    </Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Link to="/experience" className="text-white d-flex align-items-center gap-2">
+      <FaBriefcase /> Experiencia
+    </Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Link to="/proyectos" className="text-white d-flex align-items-center gap-2">
+      <FaProjectDiagram /> Proyectos
+    </Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Link to="/tecnologias" className="text-white d-flex align-items-center gap-2">
+      <FaTools /> Tecnologías
+    </Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Link to="/contacto" className="text-white d-flex align-items-center gap-2">
+      <FaEnvelope /> Contacto
+    </Link>
+  </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
