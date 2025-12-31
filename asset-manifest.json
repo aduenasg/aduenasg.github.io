@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.bdbb8d0d.css",
-    "main.js": "/static/js/main.17800a47.js",
+    "main.css": "/static/css/main.c9bb9b27.css",
+    "main.js": "/static/js/main.f35a79c2.js",
     "static/js/488.309bef99.chunk.js": "/static/js/488.309bef99.chunk.js",
     "static/media/background.png": "/static/media/background.81eb38a5d622ae06b86d.png",
     "static/media/logo.png": "/static/media/logo.8a9953a2a1a1ec583d48.png",
+    "static/media/imagen_perfil.jpg": "/static/media/imagen_perfil.1c67656ebda38fc59ddc.jpg",
     "static/media/momo-signature-latin-400-normal.woff": "/static/media/momo-signature-latin-400-normal.7b45dcd7cca0e0e1d7dd.woff",
     "static/media/momo-signature-latin-400-normal.woff2": "/static/media/momo-signature-latin-400-normal.378c35659db2efa6098e.woff2",
     "static/media/momo-signature-latin-ext-400-normal.woff": "/static/media/momo-signature-latin-ext-400-normal.4638af562d3a8c190887.woff",
@@ -16,12 +17,12 @@
     "static/media/zalando-sans-latin-ext-400-normal.woff": "/static/media/zalando-sans-latin-ext-400-normal.bef36a5b17395681e446.woff",
     "static/media/zalando-sans-latin-ext-400-normal.woff2": "/static/media/zalando-sans-latin-ext-400-normal.264618b647c47b50bb82.woff2",
     "index.html": "/index.html",
-    "main.bdbb8d0d.css.map": "/static/css/main.bdbb8d0d.css.map",
-    "main.17800a47.js.map": "/static/js/main.17800a47.js.map",
+    "main.c9bb9b27.css.map": "/static/css/main.c9bb9b27.css.map",
+    "main.f35a79c2.js.map": "/static/js/main.f35a79c2.js.map",
     "488.309bef99.chunk.js.map": "/static/js/488.309bef99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdbb8d0d.css",
-    "static/js/main.17800a47.js"
+    "static/css/main.c9bb9b27.css",
+    "static/js/main.f35a79c2.js"
   ]
 }
