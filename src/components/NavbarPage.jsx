@@ -6,18 +6,16 @@ import { useState } from "react";
 import { Link } from 'react-router-dom';
 import NavbarCSS from "./../static/css/navbar.css";
 import { 
-  FaHome,
-  FaUser,
-  FaBriefcase,
-  FaProjectDiagram,
-  FaTools,
-  FaEnvelope,
   FaBars,
   FaTimes
 } from "react-icons/fa";
+import navLinks from './../config/navLinks';
+import LanguageSelector from "./../components/LanguageSelector";
+
 
 function NavbarPage() {
   const [expanded, setExpanded] = useState(false);
+  const links = navLinks();
   return (
     
      <header className="nav-header">
@@ -54,38 +52,23 @@ function NavbarPage() {
         </Navbar.Toggle>
 
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-              <Nav.Item>
-    <Link to="/" className="text-white d-flex align-items-center gap-2">
-      <FaHome /> Inicio
-    </Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Link to="/about-me" className="text-white d-flex align-items-center gap-2">
-      <FaUser /> Sobre Mi
-    </Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Link to="/experience" className="text-white d-flex align-items-center gap-2">
-      <FaBriefcase /> Experiencia
-    </Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Link to="/proyectos" className="text-white d-flex align-items-center gap-2">
-      <FaProjectDiagram /> Proyectos
-    </Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Link to="/tecnologias" className="text-white d-flex align-items-center gap-2">
-      <FaTools /> Tecnologías
-    </Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Link to="/contacto" className="text-white d-flex align-items-center gap-2">
-      <FaEnvelope /> Contacto
-    </Link>
-  </Nav.Item>
+          
+          <Nav className='ms-auto'>
+            {links.map((link) => {
+              const Icon = link.icon;
+              return (
+                <Nav.Item key={link.path}>
+                  <Link to={link.path} className="text-white text-decoration-none d-flex align-items-center gap-2 p-2">
+                    <Icon /> {link.label}
+                  </Link>
+                </Nav.Item>
+              );
+            })}
+            <Nav.Item>
+              <LanguageSelector />
+            </Nav.Item>
           </Nav>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
