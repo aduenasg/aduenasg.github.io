@@ -1,7 +1,8 @@
 const translations = {
   es: {
     hero: {
-      subtitle: "Desarrolladora Web | Entusiasta del Código"
+      subtitle: "Desarrolladora Web | Entusiasta del Código",
+      title: "¡Hola, soy Amanda!"
     },
     about: {
       text: "Me encanta sumergirme en el maravilloso mundo de la programación 🌐💻.\n\n Desde que escribí mi primera línea de código, descubrí que no hay nada más emocionante que ver cómo ideas locas se transforman en páginas web y aplicaciones.\n\nCreé esta página con el propósito de compartir mis proyectos, mis locuras por la programación y quizás también algunas anécdotas de mis batallas épicas con bugs que parecían invencibles 🐞⚔️.\n\n Me encanta aprender cosas nuevas cada día y siempre estoy buscando maneras de mejorar mis habilidades, ya sea con JavaScript, React, o simplemente explorando algún nuevo framework que me haga decir: “wow, esto es increíble”.\n\nAsí que si estás aquí, ¡bienvenido a mi pequeño rincón del código! 🚀.\n\nEspero que disfrutes explorando mis proyectos y te animes a contactarme para compartir ideas."
@@ -68,7 +69,8 @@ const translations = {
   },
   en: {
     hero: {
-      subtitle: "Web Developer | Code Enthusiast"
+      subtitle: "Web Developer | Code Enthusiast",
+      title: "Hello, I’m Amanda!"
     },
     about: {
       text: "I love diving into the wonderful world of programming 🌐💻.\n\n  Since I wrote my first line of code, I discovered that there is nothing more exciting than seeing crazy ideas turn into real websites and applications.\n\nI created this page to share my projects, my passion for programming, and maybe even some anecdotes from my epic battles with bugs that once seemed invincible 🐞⚔️.\n\n I enjoy learning new things every day and I’m always looking for ways to improve my skills, whether it’s with JavaScript, React, or simply experimenting with a new framework that makes me think, “wow, this is amazing”.\n\nSo if you’re here, welcome to my little corner of code! 🚀\n\n I hope you enjoy exploring my projects and feel encouraged to get in touch so we can share ideas."

@@ -35,7 +35,7 @@ function Intro() {
               </div>
 
               <Card.Title className="fs-3 momo-signature text-light">
-                ¡Hola, soy Amanda!
+                {t("hero.title")}
               </Card.Title>
 
               <Card.Text className="zalando-sans text-light">
