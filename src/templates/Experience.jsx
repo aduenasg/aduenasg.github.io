@@ -1,8 +1,8 @@
 
 import Time from "./../components/TimeExperience" ;
 
-function ForMe() {
+function Experience() {
   return (<Time />);
 }
 
-export default ForMe;
+export default Experience;

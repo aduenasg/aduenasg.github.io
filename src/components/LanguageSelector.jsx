@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { useLanguage } from "../i18n/LanguageContext";
 import { FaGlobe } from "react-icons/fa";
-import "../static/css/language.css"; // CSS para animaciones y posición
+import "../static/css/language.css";
 
 
 

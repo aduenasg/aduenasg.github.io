@@ -9,8 +9,7 @@ function Intro() {
 
 
   return (
-    
-<>
+    <div className="d-flex justify-content-center align-items-center container">
      <Carousel indicators={false} controls={false} interval={6000} fade className="carousel-container background-intro">
   <Carousel.Item>
     <Container
@@ -59,7 +58,7 @@ function Intro() {
    
 
 
-    </>
+    </div>
   );
 }
 

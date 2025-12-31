@@ -1,6 +1,7 @@
 import Home from "./templates/Home";
 import Experience from "./templates/Experience";
 import Layout from "./templates/MainTemplate";
+import AboutMe from "./templates/AboutMe";
 import { Routes, Route } from "react-router-dom"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -14,6 +15,7 @@ function App() {
         <Route element={<Layout />}>  
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/about-me" element={<AboutMe />} />
         </Route>
       </Routes>
     );
