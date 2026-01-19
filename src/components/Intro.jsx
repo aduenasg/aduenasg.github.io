@@ -9,56 +9,48 @@ function Intro() {
 
 
   return (
-    <div className="d-flex justify-content-center align-items-center container">
-     <Carousel indicators={false} controls={false} interval={6000} fade className="carousel-container background-intro">
-  <Carousel.Item>
-    <Container
-      fluid
-      className="d-flex justify-content-center align-items-center container-intro"
+<div className="d-flex align-items-center container-fluid background-intro">
+  <Container fluid className="container-intro">
+    <Row className="h-100">
       
-    >
-      
+      {/* Columna izquierda con contenido */}
       <Col
-        md={8}                 
-        className="d-flex justify-content-center align-items-center fade-in h-100"
+        md={6}
+        className="d-flex align-items-center fade-in"
       >
-        <Card  className="border-0 bg-transparent text-light text-center w-100">
-          <Card.Body className="d-flex flex-column justify-content-center align-items-center h-100">
-            
-            
-            <div>
-              <div className="text-muted mb-2">
-                <p className="subtitle zalando-sans">
-                  {t("hero.subtitle")}
-                </p>
-              </div>
+        <div className="intro-box text-light text-start w-100 d-flex flex-column justify-content-center">
+          
+          <div className="text-muted mb-2">
+            <p className="subtitle zalando-sans">
+              {t("hero.subtitle")}
+            </p>
+          </div>
 
-              <Card.Title className="fs-3 momo-signature text-light">
-                {t("hero.title")}
-              </Card.Title>
+          <h1 className="fs-3 momo-signature text-light">
+            {t("hero.title")}
+          </h1>
 
-              <Card.Text className="zalando-sans text-light">
-               {paragraphs.map((p, idx) => (
-                  <p key={idx}>{p}</p>
-                ))}
-              </Card.Text>
-            </div>
+          <div className="zalando-sans text-light">
+            {paragraphs.map((p, idx) => (
+              <p key={idx}>{p}</p>
+            ))}
+          </div>
 
-            
-            <div className="d-flex justify-content-center mt-3">
-              <Card.Link href="#"><Social/></Card.Link>
-            </div>
+          <div className="mt-3">
+            <a href="#" className="text-light">
+              <Social />
+            </a>
+          </div>
 
-          </Card.Body>
-        </Card>
+        </div>
       </Col>
-    </Container>
-  </Carousel.Item>
-</Carousel>
-   
 
+      {/* Columna derecha vacía (aire visual / foco de luz) */}
+      <Col md={6} className="d-none d-md-block" />
 
-    </div>
+    </Row>
+  </Container>
+</div>
   );
 }
 

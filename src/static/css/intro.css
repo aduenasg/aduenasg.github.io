@@ -13,19 +13,10 @@
     transform: translateY(0);
   }
 }
-
-.background-intro{
-    background-image: url('../img/background.png');
-    background-size: cover;      
-    background-position: center;  
-    background-repeat: no-repeat; 
-    filter: brightness(0.7);
-    min-width: 100% !important;
-}
-
 .subtitle{
     color: #f4a261;
 }
+
 
 .title{
     color: #264653;
@@ -41,4 +32,7 @@
 
 .w-100{
   width: 100% !important;
+}
+.intro-box{
+  margin: 10%;
 }
