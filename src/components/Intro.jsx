@@ -2,6 +2,7 @@ import IntroCss from "./../static/css/intro.css";
 import { Card, Container, Row, Col, Carousel} from "react-bootstrap";
 import Social from "./SocialButton";
 import { useLanguage } from "../i18n/LanguageContext";
+import Terminal from "./Terminal";
 
 function Intro() {
   const { t } = useLanguage();
@@ -12,7 +13,7 @@ function Intro() {
 <div className="d-flex align-items-center container-fluid background-intro">
   <Container fluid className="container-intro">
     <Row className="h-100">
-      
+
       {/* Columna izquierda con contenido */}
       <Col
         md={6}
@@ -26,7 +27,7 @@ function Intro() {
             </p>
           </div>
 
-          <h1 className="fs-3 momo-signature text-light">
+          <h1 className="fs-1 momo-signature text-light title">
             {t("hero.title")}
           </h1>
 
@@ -45,8 +46,15 @@ function Intro() {
         </div>
       </Col>
 
-      {/* Columna derecha vacía (aire visual / foco de luz) */}
-      <Col md={6} className="d-none d-md-block" />
+    
+      <Col
+        md={6}
+        className="d-flex align-items-center justify-content-center fade-in"
+      >
+        <div className="terminal-wrapper w-100">
+          <Terminal /> 
+        </div>
+      </Col>
 
     </Row>
   </Container>

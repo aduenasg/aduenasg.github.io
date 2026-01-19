@@ -15,11 +15,21 @@
 }
 .subtitle{
     color: #f4a261;
+    font-weight: bold;
 }
 
 
 .title{
-    color: #264653;
+   font-weight: bold !important;
+    background: linear-gradient(
+    135deg,
+    hsl(350, 85%, 60%) 0%,
+    hsl(30, 90%, 55%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  color: transparent !important;
 }
 
 .container-intro{

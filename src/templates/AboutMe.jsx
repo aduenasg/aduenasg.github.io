@@ -5,7 +5,7 @@ import AboutCSS from "./../static/css/aboutme.css";
 
 function AboutMe() {
   return (
-    <section className="section-about">
+    <section className="section-about content-container ">
 
       <SectionAboutMe/>
   

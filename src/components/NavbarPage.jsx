@@ -11,14 +11,14 @@ import {
 } from "react-icons/fa";
 import navLinks from './../config/navLinks';
 import LanguageSelector from "./../components/LanguageSelector";
-
+import { Link as ScrollLink } from "react-scroll";
 
 function NavbarPage() {
   const [expanded, setExpanded] = useState(false);
   const links = navLinks();
   return (
     
-     <header className="nav-header">
+     <header className="nav-header p-4">
   <div>
     <Navbar
       expanded={expanded}
@@ -59,14 +59,14 @@ function NavbarPage() {
             {links.map((link) => {
               const Icon = link.icon;
               return (
-                <Nav.Item key={link.path}>
-                  <Link
-                    to={link.path}
+                <ScrollLink
+                    to={link.path}  // id de la sección
+                    smooth={true}
+                    duration={500}
                     className="text-white text-decoration-none d-flex align-items-center gap-2 p-2"
                   >
                     <Icon /> {link.label}
-                  </Link>
-                </Nav.Item>
+                </ScrollLink>
               );
             })}
             <Nav.Item>
