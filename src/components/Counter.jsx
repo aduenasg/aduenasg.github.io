@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import LoopCSS from "../static/css/loopCounter.css"; 
+// import LoopCSS from "../static/css/loopCounter.css"; 
 
 const LoopCounter = ({ start = 0, end = 5, step = 1, interval = 500, label }) => {
   const [count, setCount] = useState(start);

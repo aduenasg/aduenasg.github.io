@@ -6,14 +6,7 @@ import AboutCSS from "./../static/css/aboutme.css";
 function AboutMe() {
   return (
     <section className="section-about content-container ">
-
       <SectionAboutMe/>
-  
-      <div className="loopCounter">
-        <LoopCounter start={0} end={5} step={1} interval={500} label="Años de experiencia" />
-        <LoopCounter start={0} end={7} step={1} interval={700} label="Lenguajes usados" />
-      </div>
-
     </section>
 
   );

@@ -1,33 +1,111 @@
 
 import ProfileImage from "../static/img/imagen_perfil.jpg"; 
+import CodeCard from "./CodeCard"
+import CodeCardProgress from "./CodeCardProgress"
+import Button from "./Button"
 
 function SectionAboutMe() {
   return (
-    <div>
-  <img
-    src={ProfileImage}
-    alt="Descripción"
-    style={{
-      width: "200px",
-      height: "200px",
-      borderRadius: "50%", // redondeada
-      objectFit: "cover",
-      marginBottom: "20px",
-    }}
-  />
+      <div className="about-me-wrapper">
+  
+  <div className="about-me-snippet">
+    <pre>
+      <code>
+        <span className="keyword">def</span>{" "}
+        <span className="function-name class-name">about_me</span>
+        <span className="punctuation class-name">():</span>
+      </code>
+    </pre>
+  </div>
 
-  <p style={{ maxWidth: "800px", lineHeight: "1.6" }}>
-    Soy una profesional especializada en el desarrollo de aplicaciones web y soluciones de machine learning, destacándome por mi dedicación, resolución efectiva de problemas y compromiso con la excelencia. Tengo una sólida disposición para aprender y la capacidad de desempeñarme de manera autónoma o colaborativa en equipos.<br />   
+  {/* Profile section */}
+  <div className="about-me-content">
+    <img
+      src={ProfileImage}
+      alt="Descripción"
+      className="profile-image"
+    />
 
-    Mi orientación hacia la mejora continua y la aplicación efectiva de conocimientos se traduce en una actitud proactiva y en la consecución de objetivos. Estoy abierta a asumir responsabilidades adicionales y a contribuir de manera significativa al éxito del equipo, siempre con inquietud por el aprendizaje.<br />   
+     <div className="container mt-4">
+      <div className="row">
+        <div className="col-12 col-md-6 mb-3">
+           <CodeCard 
+              data={{
+            fileName: "developer.py",
+            className: "Developer",
+            content: {
+              name: "Amanda Dueñas Gándara",
+              role: "FullStack & ML Engineer",
+              description:
+                "Soy una profesional especializada en el \n desarrollo de aplicaciones web e soluciones \n de machine learning.",
+              tools: ["Python", "Go", "React"],
+            },
+          }} />
 
-    Me enfoco en crear aplicaciones robustas, escalables y seguras, garantizando soluciones confiables y eficientes para cualquier proyecto.
-  </p>
+          <Button />
+          
 
+
+
+
+        </div>
+        <div className="col-12 col-md-6 mb-3">
+         <CodeCardProgress data={{
+  skills: [
+    { name: "Python skills", value: 90 },
+    { name: "Frameworks", value: 90 },
+    { name: "APIs/REST", value: 80 },
+    { name: "Golang skills", value: 70 },
+    { name: "Machine Learning", value: 80 },
+  ],
+  fileName: "skills.py",
+  className: "Skills"
+}} />
+        </div>
+      </div>
+    </div>
+
+    <div className="container mt-4">
+      <div className="row">
+        <div className="col-12 col-md-3 mb-3">
+          <div className="p-3 text-white text-center icons-color" style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
+            <i className="bi bi-code-square icons-color"></i>
+             <p className="fs-3 mb-0 fw-bold"> 3+ </p>
+             <p className="text-secondary small">Lenguajes</p>
+
+          </div>
+        </div>
+        <div className="col-12 col-md-3 mb-3">
+          <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
+            <i className="bi bi-braces icons-color"></i>
+             <p className="fs-3 mb-0 fw-bold"> 5+ </p>
+             <p className="text-secondary small"> Framework</p>
+          </div>
+        </div>
+        <div className="col-12 col-md-3 mb-3">
+          <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
+             <i className="bi bi-code-slash icons-color"></i>
+             <p className="fs-3 mb-0 fw-bold"> 0 </p>
+             <p className="text-secondary small"> Proyectos</p>
+          </div>
+        </div>
+        <div className="col-12 col-md-3 mb-3">
+          <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
+            <i className="bi bi-graph-up icons-color"></i>
+             <p className="fs-3 mb-0 fw-bold"> 4+ años</p>
+             <p className="text-secondary small">Experiencia </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+      
+    
+  </div>
 </div>
 
-  
-  
+
   );
 }
 

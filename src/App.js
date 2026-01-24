@@ -1,8 +1,10 @@
 import Home from "./templates/Home";
 import Experience from "./templates/Experience";
 import AboutMe from "./templates/AboutMe";
+import Technologies from "./templates/Technologies";
 import { Routes, Route } from "react-router-dom"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css';
 import "@fontsource/momo-signature";
 import "@fontsource/zalando-sans";
@@ -19,7 +21,11 @@ function App() {
           <section id="about-me">
               <AboutMe/> 
           </section>
-         
+
+         <section id="technologies">
+              <Technologies />
+          </section>
+
           <section id="experience">
               <Experience />
           </section>

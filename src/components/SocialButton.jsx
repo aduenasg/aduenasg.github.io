@@ -9,7 +9,7 @@ const SocialButtons = () => {
     alignItems: "center",
     gap: "5px",
     padding: "8px 12px",
-    backgroundColor: "#f4a261",
+    backgroundColor: "#94312B",
     color: "white",
     borderRadius: "40%",
     textDecoration: "none",

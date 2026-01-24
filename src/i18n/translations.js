@@ -22,7 +22,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "CSA",
         description: "Desarrollo Full Stack con Python y sus principales frameworks, orientado a la creación de soluciones tecnológicas seguras, escalables y alineadas con las necesidades del mercado. Implementación de algoritmos avanzados y desarrollo de aplicaciones destinadas a la optimización de procesos y mejora de la toma de decisiones, aplicando buenas prácticas de ingeniería de software y altos estándares de calidad. Además, del uso y la integración de tecnologías modernas y altamente demandadas en el mercado, garantizando la eficiencia, estabilidad y competitividad de los sistemas desarrollados.",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["Flask", "MariaDB", "Docker", "HTML", "CSS", "Bootstrap", "Python", "JSON", "Trabajo en equipo", "Api Rest", "DevSecOps", "GO", "SQL Server", "MongoDB"]
       },
       {
@@ -32,7 +32,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "Nttdata",
         description: "Desarrollo Full Stack en Python, con una notable trayectoria en soluciones bancarias a través de la implementación de algoritmos avanzados y modelos de ML. Gestión, administración y despliegue de servidores mediante tecnología Docker para la aplicación de los algoritmos creados. Supervisión y gestión de equipo así como contacto directo con los clientes, asegurando una comunicación fluida y el entendimiento de sus necesidades para proporcionar soluciones a medida.",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["Gestión de equipo técnico", "Inteligencia artificial", "Dash", "Flask", "MariaDB", "Docker", "Pandas", "Numpy", "Análisis de datos", "HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Trabajo en equipo"]
       },
       {
@@ -42,7 +42,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "Nttdata",
         description: "Desarrollo Full Stack en Python, con experiencia destacada en soluciones bancarias mediante la implementación de algoritmos avanzados y modelos de ML. Administración, gestión y despliegue de servidores bajo tecnología Docker en la implementación de los algoritmos desarrollados. Coordinación de personal en prácticas, asegurando un aprendizaje efectivo.",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["Gestión de equipo técnico", "Inteligencia artificial", "Dash", "Flask", "MariaDB", "Docker", "Pandas", "Numpy", "Análisis de datos", "HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Trabajo en equipo"]
       },
       {
@@ -52,7 +52,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "Nttdata",
         description: "",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["Inteligencia artificial", "Dash", "Flask", "MariaDB", "Docker", "Pandas", "Numpy", "Análisis de datos", "HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Trabajo en equipo"]
       },
       {
@@ -62,7 +62,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "Nttdata",
         description: "Contrato en prácticas",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Trabajo en equipo"]
       }
     ]
@@ -90,7 +90,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "CSA",
         description: "Full Stack development with Python and its main frameworks, focused on creating secure, scalable technological solutions aligned with market needs. Implementation of advanced algorithms and development of applications aimed at optimizing processes and improving decision-making, applying software engineering best practices and high-quality standards. Additionally, integrating modern, in-demand technologies to ensure efficiency, stability, and competitiveness of the developed systems.",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["Flask", "MariaDB", "Docker", "HTML", "CSS", "Bootstrap", "Python", "JSON", "Teamwork", "API Rest", "DevSecOps", "GO", "SQL Server", "MongoDB"]
       },
       {
@@ -100,7 +100,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "Nttdata",
         description: "Full Stack development in Python, with notable experience in banking solutions through the implementation of advanced algorithms and ML models. Management, administration, and deployment of servers using Docker for algorithm implementation. Team supervision and direct client contact, ensuring smooth communication and understanding of their needs to provide tailored solutions.",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["Team management", "Artificial intelligence", "Dash", "Flask", "MariaDB", "Docker", "Pandas", "Numpy", "Data analysis", "HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Teamwork"]
       },
       {
@@ -110,7 +110,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "Nttdata",
         description: "Full Stack development in Python, with notable experience in banking solutions through advanced algorithms and ML models. Administration, management, and deployment of servers under Docker for algorithm implementation. Coordination of interns, ensuring effective learning.",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["Team management", "Artificial intelligence", "Dash", "Flask", "MariaDB", "Docker", "Pandas", "Numpy", "Data analysis", "HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Teamwork"]
       },
       {
@@ -120,7 +120,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "Nttdata",
         description: "",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["Artificial intelligence", "Dash", "Flask", "MariaDB", "Docker", "Pandas", "Numpy", "Data analysis", "HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Teamwork"]
       },
       {
@@ -130,7 +130,7 @@ const translations = {
         subtitle: "Madrid, ES",
         company: "Nttdata",
         description: "Internship contract",
-        iconBg: "#f4a261",
+        iconBg: "#f0f0f0",
         skills: ["HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Teamwork"]
       }
     ]

@@ -1,0 +1,10 @@
+
+.progress{
+height: 10px !important;
+}
+.skill-name{
+    font-family: 'Fira Code', monospace;
+}
+.color-text{
+    color: white;
+}

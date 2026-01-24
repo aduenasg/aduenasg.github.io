@@ -1,27 +1,35 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import ReactiveButton from 'reactive-button';
 
-const Buttons = () => {
- const [state, setState] = useState('idle');
+const DownloadCVButton = () => {
+  const [state, setState] = useState('idle');
 
   const onClickHandler = () => {
     setState('loading');
-    
+
+    // Simulamos un retraso antes de descargar
     setTimeout(() => {
-      setState('success');
-    }, 2000);
+      // Descarga del CV
+      const link = document.createElement('a');
+      link.href = '/CV_ADG.pdf'; // Asegúrate de que tu CV esté en /public/cv.pdf
+      link.download = 'CV.pdf';
+      link.click();
+
+      setState('success'); // Cambia el estado del botón a success
+    }, 2000); // 2 segundos de animación
   };
 
   return (
     <ReactiveButton
-      rounded 
+      rounded
       buttonState={state}
-      idleText="Proyectos"
-      loadingText="Vamos"
-      successText="Ready"
+      idleText="Descargar CV"
+      loadingText="Descargando..."
+      successText="¡Listo!"
       onClick={onClickHandler}
+      
     />
   );
-}
+};
 
-export default Buttons;
+export default DownloadCVButton;

@@ -1,16 +1,28 @@
-.section-about{
+
+
+.about-me-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  padding: 40px 20px;
+  gap: 1rem;
 }
 
-.loopCounter{
+.about-me-content {
   display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.icons-color{
+  color:#94312B !important ;
 }
