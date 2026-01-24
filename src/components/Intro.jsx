@@ -33,10 +33,10 @@ function Intro() {
           </h1>
 
           <div className="zalando-sans text-light">
-            {/* {paragraphs.map((p, idx) => (
+            {paragraphs.map((p, idx) => (
               <p key={idx}>{p}</p>
-            ))} */}
-            <LoadMoreParagraphs paragraphs={paragraphs} maxLength={300} />
+            ))}
+            
           </div>
 
           <div className="mt-3">
