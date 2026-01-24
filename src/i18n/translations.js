@@ -5,7 +5,7 @@ const translations = {
       title: "¡Hola, soy Amanda!"
     },
     about: {
-      text: "Me encanta sumergirme en el maravilloso mundo de la programación 🌐💻.\n\n Desde que escribí mi primera línea de código, descubrí que no hay nada más emocionante que ver cómo ideas locas se transforman en páginas web y aplicaciones.\n\nCreé esta página con el propósito de compartir mis proyectos, mis locuras por la programación y quizás también algunas anécdotas de mis batallas épicas con bugs que parecían invencibles 🐞⚔️.\n\n Me encanta aprender cosas nuevas cada día y siempre estoy buscando maneras de mejorar mis habilidades, ya sea con JavaScript, React, o simplemente explorando algún nuevo framework que me haga decir: “wow, esto es increíble”.\n\nAsí que si estás aquí, ¡bienvenido a mi pequeño rincón del código! 🚀.\n\nEspero que disfrutes explorando mis proyectos y te animes a contactarme para compartir ideas."
+      text: "Me encanta sumergirme en el mundo de la programación 🌐💻.\n\nDesde mi primera línea de código, descubrí la emoción de transformar ideas en páginas web y apps.\n\nComparto mis proyectos, mis locuras por programar y algunas batallas épicas con bugs 🐞⚔️.\n\nSiempre aprendo algo nuevo, explorando JavaScript, React o frameworks que me hagan decir: “¡wow!”.\n\n¡Bienvenido a mi rincón del código! 🚀 Espero que disfrutes explorando mis proyectos y te animes a compartir ideas."
     },
     navbar: {
       home: "Inicio",
