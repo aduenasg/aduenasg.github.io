@@ -3,6 +3,7 @@ import { Card, Container, Row, Col, Carousel} from "react-bootstrap";
 import Social from "./SocialButton";
 import { useLanguage } from "../i18n/LanguageContext";
 import Terminal from "./Terminal";
+import LoadMoreParagraphs from  "./LoadMoreParagraphs";
 
 function Intro() {
   const { t } = useLanguage();
@@ -32,9 +33,10 @@ function Intro() {
           </h1>
 
           <div className="zalando-sans text-light">
-            {paragraphs.map((p, idx) => (
+            {/* {paragraphs.map((p, idx) => (
               <p key={idx}>{p}</p>
-            ))}
+            ))} */}
+            <LoadMoreParagraphs paragraphs={paragraphs} maxLength={300} />
           </div>
 
           <div className="mt-3">
