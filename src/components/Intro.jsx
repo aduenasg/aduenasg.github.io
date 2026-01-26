@@ -17,7 +17,7 @@ function Intro() {
           {/* Columna izquierda */}
           <Col md={6} className="d-flex align-items-center fade-in">
             <div className="intro-box text-light text-start w-100 d-flex flex-column justify-content-center">
-              <p className="subtitle zalando-sans text-muted mb-2">{t("hero.subtitle")}</p>
+              <p className="subtitle zalando-sans  mb-2">{t("hero.subtitle")}</p>
               <h1 className="fs-1 momo-signature text-light title">{t("hero.title")}</h1>
               <div className="zalando-sans text-light">
                 {paragraphs.map((p, idx) => <p key={idx}>{p}</p>)}
