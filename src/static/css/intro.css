@@ -1,4 +1,4 @@
-/* .fade-in {
+ .fade-in {
   opacity: 0;
   animation: fadeInAnimation 1s forwards; 
 }
@@ -14,7 +14,7 @@
   }
 }
 .subtitle{
-    color: #f4a261;
+    color: #f4a261 !important;
     font-weight: bold;
 }
 
@@ -32,9 +32,6 @@
   color: transparent !important;
 }
 
-.container-intro{
-  height: calc(100dvh - 100px);
-}
 
 .h-100{
   height: 100% !important;
@@ -46,14 +43,8 @@
 .intro-box{
   margin: 10%;
 }
- */
 
-
- /* intro.css */
-
-/* Background principal */
 .background-intro {
-  
   min-height: calc(100vh - 70px); /* ✅ Resta altura del navbar */
   display: flex;
   align-items: center;
@@ -62,31 +53,18 @@
   padding-bottom: 2rem;
 }
 
-/* Contenedor interno ocupa 100% altura */
 .container-intro {
   height: 100%;
 }
 
-/* Row ocupa 100% altura */
 .row.h-100 {
   height: 100%;
 }
 
-/* Ajustes responsive para mobile */
 @media (max-width: 768px) {
   .background-intro {
     min-height: auto;
-    padding-top: 5rem;   /* Espacio para navbar mobile */
+    padding-top: 5rem;   
     padding-bottom: 3rem;
   }
-}
-
-/* Opcional: fade-in animation */
-.fade-in {
-  opacity: 0;
-  animation: fadeInAnimation 1s forwards;
-}
-
-@keyframes fadeInAnimation {
-  to { opacity: 1; }
 }

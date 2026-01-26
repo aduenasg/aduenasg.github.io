@@ -17,8 +17,8 @@ function NavbarPage() {
       <Navbar
         expanded={expanded}
         expand="md"
-        fixed="top"               // ✅ Navbar fijo
-        style={{ background: "transparent" }}
+        fixed="top"              
+        style={{ background: "black" }}
       >
         <Container className="justify-content-center">
 
