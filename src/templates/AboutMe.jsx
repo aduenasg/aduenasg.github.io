@@ -1,4 +1,3 @@
-import LoopCounter from "./../components/Counter" ;
 import SectionAboutMe from "./../components/SectionMe" ;
 import AboutCSS from "./../static/css/aboutme.css";
 

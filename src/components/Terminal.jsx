@@ -25,13 +25,13 @@ export default function Terminal() {
         newLines.push("Commands: help, about, projects, contact");
         break;
       case "about":
-        newLines.push("I am a web developer and automation specialist.");
+        newLines.push("I am a web developer.");
         break;
       case "projects":
         newLines.push("Check my projects at /projects");
         break;
       case "contact":
-        newLines.push("Send me an email at email@example.com");
+        newLines.push("");
         break;
       default:
         newLines.push(`Command not found: ${input}`);
