@@ -3,6 +3,8 @@ import Experience from "./templates/Experience";
 import AboutMe from "./templates/AboutMe";
 import Technologies from "./templates/Technologies";
 import Header  from "./templates/Header" ;
+import Project  from "./templates/Projects" ;
+import Footer  from "./templates/Footer" ;
 import { Routes, Route } from "react-router-dom"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -33,7 +35,14 @@ function App() {
           <section id="experience">
               <Experience />
           </section>
+
+          <section id="projects">
+              < Project/>
+          </section>
           
+          <section id="footer">
+              < Footer/>
+          </section>
           
 
       </div>

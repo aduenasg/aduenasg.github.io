@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
+import { useLanguage } from "../i18n/LanguageContext";
 
 const LoadMoreText = ({ text, maxLength = 120 }) => {
   const [expanded, setExpanded] = useState(false);
+  const { t } = useLanguage();
 
   const isLongText = text.length > maxLength;
   const displayText = !expanded && isLongText ? text.slice(0, maxLength) + "..." : text;
@@ -27,7 +29,7 @@ const LoadMoreText = ({ text, maxLength = 120 }) => {
           onMouseOut={e => (e.currentTarget.style.color = "white")}
         >
           {expanded ? <FaMinus size={12} /> : <FaPlus size={12} />}
-          {expanded ? "Ver menos" : "Cargar más"}
+          {expanded ? t("common.seeLess") : t("common.seeMore")}
         </span>
       )}
     </p>

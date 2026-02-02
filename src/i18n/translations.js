@@ -5,7 +5,7 @@ const translations = {
       title: "¡Hola, soy Amanda!"
     },
     about: {
-      text: "Me encanta sumergirme en el mundo de la programación 🌐💻. Desde mi primera línea de código, descubrí la emoción de transformar ideas en páginas web y apps. \n\n Comparto mis proyectos, mis locuras por programar y algunas batallas épicas con bugs 🐞⚔️. Siempre aprendo algo nuevo, explorando JavaScript, React o frameworks que me hagan decir: “¡wow!”. \n\n ¡Bienvenido a mi rincón del código! 🚀 Espero que disfrutes explorando mis proyectos y te animes a compartir ideas."
+      text: "Me encanta sumergirme en el mundo de la programación 🌐💻. Desde mi primera línea de código, descubrí la emoción de transformar ideas en páginas web y apps.\n\nComparto mis proyectos, mis locuras por programar y algunas batallas épicas con bugs 🐞⚔️. Siempre aprendo algo nuevo, explorando JavaScript, React o frameworks que me hagan decir: “¡wow!”.\n\n¡Bienvenido a mi rincón del código! 🚀 Espero que disfrutes explorando mis proyectos y te animes a compartir ideas."
     },
     navbar: {
       home: "Inicio",
@@ -14,6 +14,42 @@ const translations = {
       projects: "Proyectos",
       technologies: "Tecnologías"
     },
+    developerPy: {
+      className: "Developer",
+      content: {
+        name: "Amanda Dueñas Gándara",
+        role: "FullStack & ML Engineer",
+        description: "Soy una profesional especializada en el \n desarrollo de aplicaciones web e soluciones \n de machine learning.",
+        tools: ["Python", "Go", "React"]
+      }
+    },
+    technologiesComponent: {
+      title: "<Technologias />",
+      classname: "Tecnologías",
+      subtitle: "Construyendo automatizaciones poderosas con las herramientas y tecnologías correctas"
+    },
+    information:{
+      lenguage: "Lenguajes" ,
+      framework: "Framework" ,
+      projects: "Proyectos" ,
+      experience: "Experiencia",
+      year:"años"
+    },
+    projects:{
+      text: "Estoy cocinando nuevas ideas, líneas de código y experimentos que pronto verán la luz 👩‍💻✨.\n\nTengo muchas ganas de compartirlos, aprender en el proceso y seguir transformando ideas en proyectos reales.\n\nEsto es solo el comienzo… ¡stay tuned! 🚀"
+    },
+    footer: {
+      text: "Construido con ❤️, curiosidad y muchas líneas de código"
+    },
+    buttonDOownload:{
+      text: "Descargar CV",
+      download: "Descargando..."
+    },
+    common: {
+      seeMore: "Ver más",
+      seeLess: "Ver menos"
+    },
+
     experience: [
       {
         type: "work",
@@ -65,7 +101,18 @@ const translations = {
         iconBg: "#f0f0f0",
         skills: ["HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Trabajo en equipo"]
       }
-    ]
+    ],
+    terminal: {
+      welcome: "¡Bienvenido a mi terminal de portafolio!",
+      instructions: "Escribe 'ayuda' para ver los comandos.",
+      commands: {
+        help: "Comandos: ayuda, acerca de mi, proyectos, contacto",
+        about: "Soy desarrolladora web.",
+        projects: "Consulta mis proyectos en /projects",
+        contact: "Aquí puedes contactarme",
+        notFound: ({ input }) => `Comando no encontrado: ${input}`
+      }
+    }
   },
   en: {
     hero: {
@@ -73,8 +120,7 @@ const translations = {
       title: "Hello, I’m Amanda!"
     },
     about: {
-      text: "I love diving into the wonderful world of programming 🌐💻.\n\n  Since I wrote my first line of code, I discovered that there is nothing more exciting than seeing crazy ideas turn into real websites and applications.\n\nI created this page to share my projects, my passion for programming, and maybe even some anecdotes from my epic battles with bugs that once seemed invincible 🐞⚔️.\n\n I enjoy learning new things every day and I’m always looking for ways to improve my skills, whether it’s with JavaScript, React, or simply experimenting with a new framework that makes me think, “wow, this is amazing”.\n\nSo if you’re here, welcome to my little corner of code! 🚀\n\n I hope you enjoy exploring my projects and feel encouraged to get in touch so we can share ideas."
-    },
+      text: "I love diving into the world of programming 🌐💻. From my very first line of code, I discovered the excitement of turning ideas into websites and apps.\n\nI share my projects, my coding adventures, and some epic battles with bugs 🐞⚔️. I’m always learning something new, exploring JavaScript, React, or frameworks that make me say, “wow!”.\n\nWelcome to my little corner of code! 🚀 I hope you enjoy exploring my projects and feel encouraged to share ideas."    },
     navbar: {
       home: "Home",
       about: "About me",
@@ -82,7 +128,32 @@ const translations = {
       projects: "Projects",
       technologies: "Technologies"
     },
-     experience: [
+    developerPy: {
+      className: "Developer",
+      content: {
+        name: "Amanda Dueñas Gándara",
+        role: "FullStack & ML Engineer",
+        description: "I am a professional specialized in \n developing web applications and \n machine learning solutions.",
+        tools: ["Python", "Go", "React"]
+      }
+    },
+    projects: {
+      text: "I’m cooking up new ideas, lines of code, and experiments that will soon see the light 👩‍💻✨.\n\nI’m really excited to share them, learn along the way, and keep turning ideas into real projects.\n\nThis is just the beginning… stay tuned! 🚀"
+    },
+
+    footer:{
+      text: "Built with ❤️, curiosity & lots of code"
+    },
+
+    buttonDOownload:{
+      text: "Downloads CV",
+      download: "Downloading..."
+    },
+    common: {
+      seeMore: "See more",
+      seeLess: "See less"
+    },
+    experience: [
       {
         type: "work",
         date: "October 2024 - Present",
@@ -133,7 +204,31 @@ const translations = {
         iconBg: "#f0f0f0",
         skills: ["HTML", "React", "Matplotlib", "CSS", "Java", "Bootstrap", "Python", "JSON", "Anaconda", "Teamwork"]
       }
-    ]
+    ],
+  terminal: {
+    welcome: "Welcome to my portfolio terminal!",
+    instructions: "Type 'help' to see commands.",
+    commands: {
+      help: "Commands: help, about, projects, contact",
+      about: "I am a web developer.",
+      projects: "Check my projects at /projects",
+      contact: "You can contact me here",
+      notFound: ({ input }) => `Command not found: ${input}`
+  }
+  },
+   technologiesComponent: {
+      title: "<Technologies />",
+      classname: "Technologies",
+      subtitle: "Building powerful automations with the right tools and technologies"
+    },
+    information:{
+      lenguage: "Languages" ,
+      framework: "Framework" ,
+      projects: "Projects" ,
+      experience: "Experience",
+      year:"year"
+    },
+
   }
 };
 

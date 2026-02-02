@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
+import { useLanguage } from "../i18n/LanguageContext";
 
 const LoadMoreParagraphs = ({ paragraphs = [], maxLength = 120 }) => {
   const [expanded, setExpanded] = useState(false);
+  const { t } = useLanguage();
 
   // Convierte todos los párrafos en un solo texto para medir longitud
   const fullText = paragraphs.join(" ");
@@ -51,7 +53,7 @@ const LoadMoreParagraphs = ({ paragraphs = [], maxLength = 120 }) => {
           onMouseOut={e => (e.currentTarget.style.color = "#94312B")}
         >
           {expanded ? <FaMinus size={12} /> : <FaPlus size={12} />}
-          {expanded ? "Ver menos" : "Cargar más"}
+          {expanded ? t("common.seeLess") : t("common.seeMore")}
         </span>
       )}
     </div>

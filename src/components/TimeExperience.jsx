@@ -27,7 +27,7 @@ function TimeExperience() {
             <pre>
               <code>
                 <span className="keyword">def</span>{" "}
-                <span className="function-name class-name">experiencia</span>
+                <span className="function-name class-name">{t("navbar.experience")}</span>
                 <span className="punctuation class-name">():</span>
               </code>
             </pre>

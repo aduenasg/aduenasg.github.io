@@ -3,8 +3,11 @@ import ProfileImage from "../static/img/imagen_perfil.jpg";
 import CodeCard from "./CodeCard"
 import CodeCardProgress from "./CodeCardProgress"
 import Button from "./Button"
+import { useLanguage } from "../i18n/LanguageContext";
 
 function SectionAboutMe() {
+  const { t } = useLanguage();
+
   return (
       <div className="about-me-wrapper">
   
@@ -32,12 +35,11 @@ function SectionAboutMe() {
            <CodeCard 
               data={{
             fileName: "developer.py",
-            className: "Developer",
+            className: t("developerPy.className"),
             content: {
               name: "Amanda Dueñas Gándara",
               role: "FullStack & ML Engineer",
-              description:
-                "Soy una profesional especializada en el \n desarrollo de aplicaciones web e soluciones \n de machine learning.",
+              description: t("developerPy.content.description"),
               tools: ["Python", "Go", "React"],
             },
           }} />
@@ -71,7 +73,7 @@ function SectionAboutMe() {
           <div className="p-3 text-white text-center icons-color" style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
             <i className="bi bi-code-square icons-color"></i>
              <p className="fs-3 mb-0 fw-bold"> 3+ </p>
-             <p className="text-secondary small">Lenguajes</p>
+             <p className="text-secondary small">{t("information.lenguage")}</p>
 
           </div>
         </div>
@@ -79,21 +81,21 @@ function SectionAboutMe() {
           <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
             <i className="bi bi-braces icons-color"></i>
              <p className="fs-3 mb-0 fw-bold"> 5+ </p>
-             <p className="text-secondary small"> Framework</p>
+             <p className="text-secondary small"> {t("information.framework")}</p>
           </div>
         </div>
         <div className="col-12 col-md-3 mb-3">
           <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
              <i className="bi bi-code-slash icons-color"></i>
              <p className="fs-3 mb-0 fw-bold"> 0 </p>
-             <p className="text-secondary small"> Proyectos</p>
+             <p className="text-secondary small"> {t("information.projects")}</p>
           </div>
         </div>
         <div className="col-12 col-md-3 mb-3">
           <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
             <i className="bi bi-graph-up icons-color"></i>
-             <p className="fs-3 mb-0 fw-bold"> 4+ años</p>
-             <p className="text-secondary small">Experiencia </p>
+             <p className="fs-3 mb-0 fw-bold"> 4+ {t("information.year")}</p>
+             <p className="text-secondary small">{t("information.experience")} </p>
           </div>
         </div>
       </div>

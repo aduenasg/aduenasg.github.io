@@ -7,9 +7,10 @@ const navLinks = () => {
   return [
     { path: "home", label: t("navbar.home"), icon: FaHome },
     { path: "about-me", label: t("navbar.about"), icon: FaUser },
+    { path: "technologies", label: t("navbar.technologies"), icon: FaTools },
     { path: "experience", label: t("navbar.experience"), icon: FaBriefcase },
     { path: "projects", label: t("navbar.projects"), icon: FaProjectDiagram },
-    { path: "technologies", label: t("navbar.technologies"), icon: FaTools }
+    
   ];
 };
 

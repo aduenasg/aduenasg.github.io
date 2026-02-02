@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import ReactiveButton from 'reactive-button';
+import { useLanguage } from "../i18n/LanguageContext";
 
 const DownloadCVButton = () => {
   const [state, setState] = useState('idle');
+  const { t } = useLanguage();
 
   const onClickHandler = () => {
     setState('loading');
@@ -23,8 +25,8 @@ const DownloadCVButton = () => {
     <ReactiveButton
       rounded
       buttonState={state}
-      idleText="Descargar CV"
-      loadingText="Descargando..."
+      idleText= {t("buttonDOownload.text")}
+      loadingText={t("buttonDOownload.download")}
       successText="¡Listo!"
       onClick={onClickHandler}
       

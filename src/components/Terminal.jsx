@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from "react";
-import  terminalcss from "./../static/css/terminal.css";
+import terminalcss from "./../static/css/terminal.css";
+import { useLanguage } from "../i18n/LanguageContext";
 
 export default function Terminal() {
+  const { t } = useLanguage();
   const [lines, setLines] = useState([]);
   const [input, setInput] = useState("");
 
-  // Opcional: líneas iniciales
+  // Líneas iniciales según idioma
   useEffect(() => {
     setLines([
-      "Welcome to my portfolio terminal!",
-      "Type 'help' to see commands."
+      t("terminal.welcome") || "Welcome to my portfolio terminal!",
+      t("terminal.instructions") || "Type 'help' to see commands."
     ]);
-  }, []);
+  }, [t]);
 
   const handleCommand = (e) => {
     e.preventDefault();
@@ -19,22 +21,30 @@ export default function Terminal() {
 
     let newLines = [...lines, `> ${input}`];
 
-    // Simulamos respuestas según comando
-    switch (input.toLowerCase()) {
+    // Convertimos a minúsculas para comparar
+    const command = input.toLowerCase();
+
+    switch (command) {
       case "help":
-        newLines.push("Commands: help, about, projects, contact");
+      case "ayuda":
+        newLines.push(t("terminal.commands.help"));
         break;
       case "about":
-        newLines.push("I am a web developer.");
+      case "acerca de":
+        newLines.push(t("terminal.commands.about"));
         break;
       case "projects":
-        newLines.push("Check my projects at /projects");
+      case "proyecto":
+      case "proyectos":
+        newLines.push(t("terminal.commands.projects"));
         break;
       case "contact":
-        newLines.push("");
+      case "contacto":
+        newLines.push(t("terminal.commands.contact"));
         break;
       default:
-        newLines.push(`Command not found: ${input}`);
+        // notFound es función que recibe input
+        newLines.push(t("terminal.commands.notFound", { input }));
     }
 
     setLines(newLines);
