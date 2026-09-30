@@ -36,7 +36,16 @@ const translations = {
       year:"años"
     },
     projects:{
-      text: "Estoy cocinando nuevas ideas, líneas de código y experimentos que pronto verán la luz 👩‍💻✨.\n\nTengo muchas ganas de compartirlos, aprender en el proceso y seguir transformando ideas en proyectos reales.\n\nEsto es solo el comienzo… ¡stay tuned! 🚀"
+      text: "Estoy cocinando nuevas ideas, líneas de código y experimentos que pronto verán la luz 👩‍💻✨.\n\nTengo muchas ganas de compartirlos, aprender en el proceso y seguir transformando ideas en proyectos reales.\n\nEsto es solo el comienzo… ¡stay tuned! 🚀",
+      visit: "Ver sitio",
+      items: [
+        {
+          title: "Portfolio · Aitana Núñez",
+          description: "Diseño y desarrollo del portfolio web de Aitana Núñez, estilista y directora creativa en Madrid. Una web minimalista y elegante pensada para mostrar sus colecciones y proyectos creativos.",
+          tags: ["React", "Vite", "CSS"],
+          link: "https://www.aitana-portfolio.com/"
+        }
+      ]
     },
     footer: {
       text: "Construido con ❤️, curiosidad y muchas líneas de código"
@@ -138,7 +147,16 @@ const translations = {
       }
     },
     projects: {
-      text: "I’m cooking up new ideas, lines of code, and experiments that will soon see the light 👩‍💻✨.\n\nI’m really excited to share them, learn along the way, and keep turning ideas into real projects.\n\nThis is just the beginning… stay tuned! 🚀"
+      text: "I’m cooking up new ideas, lines of code, and experiments that will soon see the light 👩‍💻✨.\n\nI’m really excited to share them, learn along the way, and keep turning ideas into real projects.\n\nThis is just the beginning… stay tuned! 🚀",
+      visit: "Visit site",
+      items: [
+        {
+          title: "Portfolio · Aitana Núñez",
+          description: "Design and development of the web portfolio for Aitana Núñez, a stylist and creative director based in Madrid. A minimalist, elegant site built to showcase her collections and creative work.",
+          tags: ["React", "Vite", "CSS"],
+          link: "https://www.aitana-portfolio.com/"
+        }
+      ]
     },
 
     footer:{

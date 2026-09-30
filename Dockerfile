@@ -1,11 +1,16 @@
-FROM node:8
+FROM node:20-alpine
 
-RUN apt-get update
-
-EXPOSE 3000
-EXPOSE 5000
-
-ADD . /app
 WORKDIR /app
 
-CMD yarn start
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+
+RUN npm run build
+
+RUN npm install -g serve
+
+EXPOSE 3200
+
+CMD ["serve", "-s", "build", "-l", "3200"]
