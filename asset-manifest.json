@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6531c09.css",
-    "main.js": "/static/js/main.f5c04bcc.js",
+    "main.css": "/static/css/main.b8ff104b.css",
+    "main.js": "/static/js/main.9ac28e63.js",
     "static/js/488.309bef99.chunk.js": "/static/js/488.309bef99.chunk.js",
     "static/media/peakpx (4).jpg": "/static/media/peakpx (4).7dcf3be8d6824221557c.jpg",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
@@ -18,12 +18,12 @@
     "static/media/zalando-sans-latin-ext-400-normal.woff": "/static/media/zalando-sans-latin-ext-400-normal.bef36a5b17395681e446.woff",
     "static/media/zalando-sans-latin-ext-400-normal.woff2": "/static/media/zalando-sans-latin-ext-400-normal.264618b647c47b50bb82.woff2",
     "index.html": "/index.html",
-    "main.e6531c09.css.map": "/static/css/main.e6531c09.css.map",
-    "main.f5c04bcc.js.map": "/static/js/main.f5c04bcc.js.map",
+    "main.b8ff104b.css.map": "/static/css/main.b8ff104b.css.map",
+    "main.9ac28e63.js.map": "/static/js/main.9ac28e63.js.map",
     "488.309bef99.chunk.js.map": "/static/js/488.309bef99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6531c09.css",
-    "static/js/main.f5c04bcc.js"
+    "static/css/main.b8ff104b.css",
+    "static/js/main.9ac28e63.js"
   ]
 }
