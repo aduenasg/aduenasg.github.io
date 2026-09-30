@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.25d38b85.css",
+    "main.css": "/static/css/main.4b30ed31.css",
     "main.js": "/static/js/main.798bced5.js",
     "static/js/488.309bef99.chunk.js": "/static/js/488.309bef99.chunk.js",
     "static/media/aitana-portfolio.png": "/static/media/aitana-portfolio.6e5543d41175a77dcb8c.png",
@@ -19,12 +19,12 @@
     "static/media/zalando-sans-latin-ext-400-normal.woff": "/static/media/zalando-sans-latin-ext-400-normal.bef36a5b17395681e446.woff",
     "static/media/zalando-sans-latin-ext-400-normal.woff2": "/static/media/zalando-sans-latin-ext-400-normal.264618b647c47b50bb82.woff2",
     "index.html": "/index.html",
-    "main.25d38b85.css.map": "/static/css/main.25d38b85.css.map",
+    "main.4b30ed31.css.map": "/static/css/main.4b30ed31.css.map",
     "main.798bced5.js.map": "/static/js/main.798bced5.js.map",
     "488.309bef99.chunk.js.map": "/static/js/488.309bef99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25d38b85.css",
+    "static/css/main.4b30ed31.css",
     "static/js/main.798bced5.js"
   ]
 }
