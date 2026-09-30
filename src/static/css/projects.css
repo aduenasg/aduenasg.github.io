@@ -3,7 +3,7 @@
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 14px;
   max-width: 420px;
-  margin: 32px 0 64px auto;
+  margin: 32px auto 64px 0;
 }
 
 .project-card {
