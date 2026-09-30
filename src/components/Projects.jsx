@@ -23,10 +23,6 @@ function SectionProjects() {
 
   <div className="container text-light text-center ">
 
-       <p className="projectCard text-center px-4 py-4">
-            {t("projects.text")}
-        </p>
-
        <div className="projects-grid">
          {items.map((project, index) => (
            <div
