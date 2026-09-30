@@ -70,7 +70,7 @@ function SectionAboutMe() {
     <div className="container mt-4">
       <div className="row">
         <div className="col-12 col-md-3 mb-3">
-          <div className="p-3 text-white text-center icons-color" style={{ backgroundColor: "#000000", borderRadius: "8px" }}>
+          <div className="p-3 text-white text-center icons-color" style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
             <i className="bi bi-code-square icons-color"></i>
              <p className="fs-3 mb-0 fw-bold"> 3+ </p>
              <p className="text-secondary small">{t("information.lenguage")}</p>
@@ -78,21 +78,21 @@ function SectionAboutMe() {
           </div>
         </div>
         <div className="col-12 col-md-3 mb-3">
-          <div className="p-3 text-white text-center " style={{ backgroundColor: "#000000", borderRadius: "8px" }}>
+          <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
             <i className="bi bi-braces icons-color"></i>
              <p className="fs-3 mb-0 fw-bold"> 5+ </p>
              <p className="text-secondary small"> {t("information.framework")}</p>
           </div>
         </div>
         <div className="col-12 col-md-3 mb-3">
-          <div className="p-3 text-white text-center " style={{ backgroundColor: "#000000", borderRadius: "8px" }}>
+          <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
              <i className="bi bi-code-slash icons-color"></i>
              <p className="fs-3 mb-0 fw-bold"> 0 </p>
              <p className="text-secondary small"> {t("information.projects")}</p>
           </div>
         </div>
         <div className="col-12 col-md-3 mb-3">
-          <div className="p-3 text-white text-center " style={{ backgroundColor: "#000000", borderRadius: "8px" }}>
+          <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
             <i className="bi bi-graph-up icons-color"></i>
              <p className="fs-3 mb-0 fw-bold"> 4+ {t("information.year")}</p>
              <p className="text-secondary small">{t("information.experience")} </p>
