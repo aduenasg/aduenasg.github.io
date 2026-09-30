@@ -58,7 +58,7 @@
   font-family: 'Consolas', 'Monaco', monospace;
   font-size: 1rem;
   font-weight: 700;
-  color: #79c0ff;
+  color: #ff9500;
 }
 
 .project-card-description {
@@ -77,9 +77,9 @@
 }
 
 .project-card-tag {
-  background: rgba(88, 166, 255, 0.1);
-  border: 1px solid rgba(88, 166, 255, 0.4);
-  color: #58a6ff;
+  background: rgba(255, 149, 0, 0.1);
+  border: 1px solid rgba(255, 149, 0, 0.4);
+  color: #ff9500;
   border-radius: 6px;
   padding: 2px 7px;
   font-size: 0.65rem;
