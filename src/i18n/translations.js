@@ -1,3 +1,5 @@
+import aitanaPortfolioImg from "../static/img/aitana-portfolio.png";
+
 const translations = {
   es: {
     hero: {
@@ -46,7 +48,7 @@ const translations = {
           description: "Diseño y desarrollo del portfolio web de Aitana Núñez, estilista y directora creativa en Madrid. Una web minimalista y elegante pensada para mostrar sus colecciones y proyectos creativos.",
           tags: ["React", "Vite", "CSS"],
           link: "https://www.aitana-portfolio.com/",
-          image: null
+          image: aitanaPortfolioImg
         }
       ]
     },
@@ -160,7 +162,7 @@ const translations = {
           description: "Design and development of the web portfolio for Aitana Núñez, a stylist and creative director based in Madrid. A minimalist, elegant site built to showcase her collections and creative work.",
           tags: ["React", "Vite", "CSS"],
           link: "https://www.aitana-portfolio.com/",
-          image: null
+          image: aitanaPortfolioImg
         }
       ]
     },
