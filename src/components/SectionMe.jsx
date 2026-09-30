@@ -87,7 +87,7 @@ function SectionAboutMe() {
         <div className="col-12 col-md-3 mb-3">
           <div className="p-3 text-white text-center " style={{ backgroundColor: "rgba(0,0,0,0.7)", borderRadius: "8px" }}>
              <i className="bi bi-code-slash icons-color"></i>
-             <p className="fs-3 mb-0 fw-bold"> 0 </p>
+             <p className="fs-3 mb-0 fw-bold"> 1 </p>
              <p className="text-secondary small"> {t("information.projects")}</p>
           </div>
         </div>
