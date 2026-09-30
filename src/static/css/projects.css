@@ -1,46 +1,71 @@
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 14px;
-  max-width: 420px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 480px;
   margin: 32px auto 64px 0;
 }
 
-.project-card {
-  position: relative;
-  z-index: 1;
-  text-align: left;
-  color: #f5f5f5;
-  background-color: #0d0d0d;
-  font-family: "Courier New", Courier, monospace;
-  border: none;
-  border-radius: 8px;
-  padding: 12px;
+.project-window-wrapper {
   opacity: 0;
   transform: translateY(24px);
-  box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
   animation: projectCardFadeIn 0.6s ease forwards;
-  transition: transform 0.35s ease, box-shadow 0.35s ease, z-index 0s;
 }
 
-.project-card:hover,
-.project-card:focus-within {
+.code-window.project-window {
+  max-width: 100%;
+  position: relative;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.code-window.project-window:hover,
+.code-window.project-window:focus-within {
   z-index: 5;
-  transform: translateY(-8px) scale(1.04);
-  box-shadow: 0 0 32px rgba(255, 140, 0, 0.8);
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 25px 50px -12px rgba(255, 149, 0, 0.45);
+}
+
+.code-content.project-window-content {
+  padding: 14px;
+  text-align: left;
+}
+
+.project-card-image-slot {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px dashed #30363d;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #8b949e;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.project-card-image-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .project-card-title {
   margin: 0 0 6px;
-  font-size: 0.95rem;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 1rem;
   font-weight: 700;
-  color: #ff9500;
+  color: #79c0ff;
 }
 
 .project-card-description {
   margin: 0 0 10px;
-  font-size: 0.75rem;
-  color: #f5f5f5;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.8rem;
+  color: #ffffff;
   opacity: 0.9;
 }
 
@@ -48,17 +73,17 @@
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .project-card-tag {
-  background: rgba(255, 149, 0, 0.1);
-  border: 1px solid rgba(255, 149, 0, 0.4);
-  color: #ff9500;
+  background: rgba(88, 166, 255, 0.1);
+  border: 1px solid rgba(88, 166, 255, 0.4);
+  color: #58a6ff;
   border-radius: 6px;
   padding: 2px 7px;
   font-size: 0.65rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Consolas', 'Monaco', monospace;
 }
 
 .project-card-button {
@@ -69,7 +94,7 @@
   color: #ff9500;
   border: 1px solid #ff9500;
   font-weight: 600;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Consolas', 'Monaco', monospace;
   text-decoration: none;
   padding: 5px 12px;
   border-radius: 6px;
